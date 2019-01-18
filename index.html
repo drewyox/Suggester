@@ -10,6 +10,11 @@
   </head>
   <body>
     <div class="container">
+
+      <div class="jumbotron">
+        <h1>The Language Selector Quiz</h1>
+        <p>Are you struggling to decide which programming language to dive into? This quiz will ask you basic questions, and suggest programming languages to you as you answer.</p>
+      </div>
       <div id="question0Content">
         <h3> Are you ready to pick a coding language, or would you like to review more information?</h3>
         <form id="question0" class="well">
@@ -29,14 +34,16 @@
           </form>
         </div>
 
-        <div class="infoLink well">
-          <h3>It's okay if you're not quite ready! Take some time and read over Epicodus' description of the multitude of programming languages offered <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">right here!</a>
+        <div class="infoLink info">
+          <h3>It's okay if you're not quite ready!</h3> <h4>Take some time and read over Epicodus' description of the multitude of programming languages offered <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">right here!</a> When you're ready to continue, choose I'm ready and submit above!</h4>
         </div>
 
         <div id="question1Content">
+          <div class="questionText">
           <h2 class="headerPrompt">What Interests you?</h2>
           <div class="textDesign">
             <h4> Does the look and styling of a website interest you more than the back end workings? Are you more artistically inclined?</h4>
+          </div>
           </div>
           <form id="questionOne" class="well">
           <div class="radio">
@@ -55,14 +62,17 @@
           </form>
         </div>
 
-        <div class="cssInfo">
+        <div class="cssInfo info">
           <h3>Your perfect match is...</h3>
           <h1>CSS!</h1>
+          <p>Explore many of the common usese of CSS <a href="https://www.w3schools.com/css/">right here!</a></p>
         </div>
 
         <div id="question2Content">
-          <h2 class="headerPrompt">What Interests you?</h2>
-          <h4 class="textDesign"> Are you more interested in creating interactive web applications such as creating accounts, entering information, and interacting with dynamic content?</h4>
+          <div class="questionText">
+            <h2 class="headerPrompt">What Interests you?</h2>
+            <h4 class="textDesign"> Are you more interested in making interactive web applications, doing things like user account creation, and interacting with dynamic content?</h4>
+          </div>
           <form id="questionTwo" class="well">
             <div class="radio">
               <label>
@@ -80,15 +90,18 @@
           </form>
         </div>
 
-        <div class="rubyInfo">
+        <div class="rubyInfo info">
           <h3>Your perfect match is...</h3>
           <h1>Ruby!</h1>
+          <p>Learn everything you need to know about Ruby <a href="https://www.ruby-lang.org/en/">right here!</a></p>
         </div>
 
         <div id="question3Content">
-          <div class="textDesign">
-            <h2 class="headerPrompt">Almost there! Just a few more questions and we'll find the right language for you.</h2>
-            <h4>Do you like utilizing microsoft projects and hope to work within a larger company?</h4>
+          <div class="questionText">
+            <div class="textDesign">
+              <h2 class="headerPrompt">Almost there! Just a few more questions and we'll find the right language for you.</h2>
+              <h4>Do you like utilizing microsoft projects and hope to work within a larger company?</h4>
+            </div>
           </div>
 
           <form id="questionThree" class="well">
@@ -108,15 +121,18 @@
           </form>
         </div>
 
-        <div class="cshInfo">
+        <div class="cshInfo info">
           <h3>Your perfect match is...</h3>
           <h1>C#!</h1>
+          <p>Check out this great resource on C#<a href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFgA7bL1E7UArER46FpMBPcw4plMdjNCaIdq-TxG82rMUc6tqhC_3vgaAliHEALw_wcB"> right here!</a></p>
         </div>
 
         <div id="question4Content">
-          <div class="textDesign">
-            <h2 class="headerPrompt">Almost there! Just one more questions to narrow it down!</h2>
-            <h4>Are you interested in working for an enterprise-level company, as an Android developer, or working on high-performance applications?</h4> <h3>OR...</h3> <h4>Working for a fast paced agency that builds websites for lots of clients, maintains the security and stability of a huge complex of government websites, or builds out small sites for brands, businesses, and organizations? </h4>
+          <div class="questionText">
+            <div class="textDesign">
+              <h2 class="headerPrompt">Almost there! Just one more questions to narrow it down!</h2>
+              <h4>Are you interested in working for an enterprise-level company, as an Android developer, or working on high-performance applications?</h4> <h3>OR...</h3> <h4>Working for a fast paced agency that builds websites for lots of clients, maintains the security and stability of a huge complex of government websites, or builds out small sites for brands, businesses, and organizations? </h4>
+            </div>
           </div>
           <form id="questionFour" class="well">
           <div class="radio">
@@ -135,14 +151,25 @@
           </form>
         </div>
 
-          <div class="javaInfo">
+          <div class="javaInfo info">
             <h3>Your perfect match is...</h3>
             <h1>Java!</h1>
+            <p>Explore more on Java's official site,<a href="https://www.java.com/en/"> right here!</a></p>
           </div>
 
-          <div class="phpInfo">
+          <div class="phpInfo info">
             <h3>Your perfect match is...</h3>
             <h1>PHP!</h1>
+            <p>See if PHP is a good fit for you<a href="http://www.php.net/"> right here!</a></p>
+          </div>
+          <div class="footer">
+            <ul>
+              <li><h4><a href="https://www.w3schools.com/css/">CSS</a></h4></li>
+              <li><h4><a href="https://www.ruby-lang.org/en/">Ruby</a></h4>
+              <li><h4><a href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFgA7bL1E7UArER46FpMBPcw4plMdjNCaIdq-TxG82rMUc6tqhC_3vgaAliHEALw_wcB">C#</a></h4></li>
+              <li><h4><a href="https://www.java.com/en/">Java</a></h4></li>
+              <li><h4><a href="http://www.php.net/">PHP</a></h4></li>
+            </ul>
           </div>
 
       </div>

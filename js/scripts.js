@@ -6,10 +6,10 @@ $(document).ready(function() {
 
       if (ready === "yes") {
         $("#question0Content").hide();
+        $(".infoLink").hide();
         $("#question1Content").show();
       }
       else {
-        $("#question0Content").hide();
         $(".infoLink").show();
       };
     });

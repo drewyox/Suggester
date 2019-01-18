@@ -1,5 +1,6 @@
 #question1Content {
   display:none;
+
 }
 
 #question2Content {
@@ -32,6 +33,96 @@
 .phpInfo {
   display: none;
 }
+
+.headerPrompt {
+  text-decoration: underline;
+  margin: 25px;
+}
+ .textDesign {
+
+ }
+
+.well {
+  border:3px solid grey;
+  border-radius: 4px;
+}
+
+.jumbotron {
+  border:3px solid grey;
+  border-radius: 4px;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+
+.questionText {
+  background-color: #cfeef7;
+  border:3px solid grey;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.info {
+  background-color: #cfeef7;
+  border:3px solid grey;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  margin:auto;
+  margin-bottom: 50px;
+  width: 40%;
+
+}
+
+#question0 {
+  width:30%;
+}
+
+#question1 {
+  width:30%;
+}
+
+#question2 {
+  width:30%;
+}
+
+#question3 {
+  width:30%;
+}
+
+#question4 {
+  width:30%;
+}
+
+.footer {
+  float: bottom;
+  position:fixed;
+  background-color: #cfeef7;
+  border:3px solid grey;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  width:80%;
+}
+
+.footer li h4{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 .javaInfo {
   display: none;
