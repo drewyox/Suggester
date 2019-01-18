@@ -45,6 +45,7 @@
 .well {
   border:3px solid grey;
   border-radius: 4px;
+  background-color: #e7e7e7;
 }
 
 .jumbotron {
@@ -53,12 +54,12 @@
 }
 
 body {
-  background-color: darkgrey;
+  background-color: #cfeef7;
 }
 
 
 .questionText {
-  background-color: #cfeef7;
+  background-color: #e7e7e7;
   border:3px solid grey;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -67,7 +68,7 @@ body {
 }
 
 .info {
-  background-color: #cfeef7;
+  background-color: #e7e7e7;
   border:3px solid grey;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -102,28 +103,37 @@ body {
 
 .footer {
   float: bottom;
-  position:fixed;
-  background-color: #cfeef7;
+  background-color:#e7e7e7 ;
   border:3px solid grey;
   border-radius: 4px;
-  margin-bottom: 0px;
-  width:80%;
-}
-
-.footer li h4{
+  margin-top: 30px;
+  width:32%;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
+  margin:auto;
 }
 
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 
+}
+ .footer li h4 {
+   display: block;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+   margin: auto;
+ }
 
-
-
-
-
+ .footer li {
+   float:left;
+   margin:auto;
+ }
 .javaInfo {
   display: none;
+}
+.info h1 {
+  text-shadow: 3px 3px darkgrey;
 }
