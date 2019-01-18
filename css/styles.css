@@ -1,0 +1,38 @@
+#question1Content {
+  display:none;
+}
+
+#question2Content {
+  display:none;
+}
+
+#question3Content {
+  display:none;
+}
+
+#question4Content {
+  display:none;
+}
+
+.infoLink {
+  display: none;
+}
+
+.cssInfo {
+  display:none;
+}
+
+.rubyInfo {
+  display:none;
+}
+
+.cshInfo{
+  display: none;
+}
+.phpInfo {
+  display: none;
+}
+
+.javaInfo {
+  display: none;
+}

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Suggester</title>
   </head>
@@ -9,113 +13,138 @@
       <div id="question0Content">
         <h3> Are you ready to pick a coding language, or would you like to review more information?</h3>
         <form id="question0" class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="yes" checked>
-            I'm ready to pick!
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne" value="yes" checked>
+              I'm ready to pick!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne" value="No">
+              I need more time to research my options.
+            </label>
+          </div>
+          <button type="submit">Submit!</button>
+          </form>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="No">
-            I need more time to research my options.
-          </label>
+
+        <div class="infoLink well">
+          <h3>It's okay if you're not quite ready! Take some time and read over Epicodus' description of the multitude of programming languages offered <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">right here!</a>
         </div>
-        <button type="submit">Submit!</button>
-        </form>
 
-
-
-
-
-      <h2 class="headerPrompt">What Interests you?</h2>
-
-      <div id="question1Content">
-        <div class="textDesign">
-          <h4> Does the look and styling of a website interest you more than the back end workings? Are you more artistically inclined?</h4>
+        <div id="question1Content">
+          <h2 class="headerPrompt">What Interests you?</h2>
+          <div class="textDesign">
+            <h4> Does the look and styling of a website interest you more than the back end workings? Are you more artistically inclined?</h4>
+          </div>
+          <form id="questionOne" class="well">
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne1" value="yes" checked>
+              Yes, I'm intrigued by the styling and web design aspects of coding.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne1" value="No">
+              No, I'm more interested in how a website functions.
+            </label>
+          </div>
+          <button type="submit">Submit!</button>
+          </form>
         </div>
-        <form id="questionOne" class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="yes" checked>
-            Yes, I'm intrigued by the styling and web design aspects of coding.
-          </label>
+
+        <div class="cssInfo">
+          <h3>Your perfect match is...</h3>
+          <h1>CSS!</h1>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="No">
-            No, I'm more interested in how a website functions.
-          </label>
+
+        <div id="question2Content">
+          <h2 class="headerPrompt">What Interests you?</h2>
+          <h4 class="textDesign"> Are you more interested in creating interactive web applications such as creating accounts, entering information, and interacting with dynamic content?</h4>
+          <form id="questionTwo" class="well">
+            <div class="radio">
+              <label>
+                <input type="radio" name="yesNoOne2" value="yes" checked>
+                Yes, creating and interacting with dynamic content sounds amazing!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="yesNoOne2" value="No">
+                No, the handling and processing of information appeals to me more.
+              </label>
+            </div>
+            <button type="submit">Submit!</button>
+          </form>
         </div>
-        <button type="submit">Submit!</button>
-        </form>
+
+        <div class="rubyInfo">
+          <h3>Your perfect match is...</h3>
+          <h1>Ruby!</h1>
+        </div>
+
+        <div id="question3Content">
+          <div class="textDesign">
+            <h2 class="headerPrompt">Almost there! Just a few more questions and we'll find the right language for you.</h2>
+            <h4>Do you like utilizing microsoft projects and hope to work within a larger company?</h4>
+          </div>
+
+          <form id="questionThree" class="well">
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne3" value="yes" checked>
+              Yes, I love microsoft and hope to work in a larger company!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne3" value="No">
+              No, I like a multitude of brands, and wish to either work in an enterprise force or an ultra large network.
+            </label>
+          </div>
+          <button type="submit">Submit!</button>
+          </form>
+        </div>
+
+        <div class="cshInfo">
+          <h3>Your perfect match is...</h3>
+          <h1>C#!</h1>
+        </div>
+
+        <div id="question4Content">
+          <div class="textDesign">
+            <h2 class="headerPrompt">Almost there! Just one more questions to narrow it down!</h2>
+            <h4>Are you interested in working for an enterprise-level company, as an Android developer, or working on high-performance applications?</h4> <h3>OR...</h3> <h4>Working for a fast paced agency that builds websites for lots of clients, maintains the security and stability of a huge complex of government websites, or builds out small sites for brands, businesses, and organizations? </h4>
+          </div>
+          <form id="questionFour" class="well">
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne4" value="yes" checked>
+              I want to work with Android and create high performance applications!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="yesNoOne4" value="no">
+              I want to tackle huge and complex websites!
+            </label>
+          </div>
+          <button type="submit">Submit!</button>
+          </form>
+        </div>
+
+          <div class="javaInfo">
+            <h3>Your perfect match is...</h3>
+            <h1>Java!</h1>
+          </div>
+
+          <div class="phpInfo">
+            <h3>Your perfect match is...</h3>
+            <h1>PHP!</h1>
+          </div>
+
       </div>
-
-      <div class="question2Content">
-        <h4 class="textDesign"> Are you more interested in creating interactive web applications such as creating accounts, entering information, and interacting with dynamic content?</h4>
-        <form id="questionTwo" class=""
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="yes" checked>
-            Yes, creating and interacting with dynamic content sounds amazing!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="No">
-            No, the handling and processing of information appeals to me more.
-          </label>
-        </div>
-        <button type="submit">Submit!</button>
-        </form>
-      </div>
-
-      <div id="question3Content">
-        <div class="textDesign">
-          <h2>Almost there! Just a few more questions and we'll find the right language for you.</h2>
-          <h4>Do you like utilizing microsoft projects and hope to work within a larger company?</h4>
-        </div>
-        <form id="questionThree" class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="yes" checked>
-            Yes, I love microsoft and hope to work in a larger company!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="No">
-            No, I like a multitude of brands, and wish to either work in an enterprise force or an ultra large network.
-          </label>
-        </div>
-        <button type="submit">Submit!</button>
-        </form>
-      </div>
-
-      <div id="question4Content">
-        <div class="textDesign">
-          <h4>Are you interested in working for an enterprise-level company, as an Android developer, or working on high-performance applications? Or, work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations? </h4>
-        </div>
-        <form id="questionThree" class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="java" checked>
-            I want to work with Android and create high performance applications!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="yesNoOne" value="php">
-            I want to tackle huge and complex websites!
-          </label>
-        </div>
-        <button type="submit">Submit!</button>
-        </form>
-      </div>
-
-
-
-
-    </div>
   </body>
 </html>
