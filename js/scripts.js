@@ -65,6 +65,7 @@ $(document).ready(function() {
       if (qst4 === "yes") {
         $("#question4content").hide();
         $("#question3Content").hide();
+        $(".phpInfo").hide();
         $(".javaInfo").show();
       }
       else {
